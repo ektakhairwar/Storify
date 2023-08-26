@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    function passvalue()
+{
+    var fn=document.getElementById("txt").value;
+    localStorage.setItem("textvalue",fn);
+    var content=document.getElementById("story").value;
+    localStorage.setItem("txtvalue1",content);
+    return false;
+}
+</script>
+</head>
+<body>
+    <!-- <centre>
+    <div class="Title">
+        <input type="text" placeholder="Title">
+    </div>
+   <div class="page">
+   <form action="publish.html" >
+    <textarea id="story" placeholder="Write your story here" value="Click" onclick="passvalue();"></textarea>
+   </form>
+</div>
+
+ 
+</centre> -->
+<form action="publish.html" >
+    <div>
+        <input type="text" id="txt" placeholder="title"></div>
+        <div><textarea id="story" placeholder="Write your story here" ></textarea></div>
+        <div><input type="submit" value="Publish" onclick="passvalue();" ></div>
+        
+</form>
+</body>
+</html>
