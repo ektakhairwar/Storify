@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pearl Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset  */
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('bgcolor.jpg');
+        object-fit: cover;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+
+    .left img {
+        display: block;
+        width: 45px;
+        margin: auto;
+    }
+
+    .left div {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+
+    }
+
+    .mid {
+        display: block;
+        width: 43%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 30px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 30px 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 0px 7px;
+        color: white;
+        background-color: black;
+        padding: 2px 10px;
+        border: 2px solid grey;
+        border-radius: 19px;
+        font-size: 17px;
+        cursor: pointer;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+        position: absolute;
+        left: 400px;
+        margin: 49px 44px;
+        padding: 45px;
+        width: 35%;
+        border-radius: 65px;
+    }
+
+    .form-group input {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 3px;
+        border: 2px solid black;
+        margin: 6px auto;
+        font-size: 20px;
+        border-radius: 8px;
+    }
+
+    .container h2 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        height: 54px;
+        width: 92%;
+        margin: 20px auto;
+    }
+    .container button:hover{
+        background-color: rgb(8, 240, 201);
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="img/gym.png" alt="">
+            <div>Storify</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"> Home</a></li>
+                <li><a href="#"> About us</a></li>
+            </ul>
+        </div>
+        
+    </header>
+    <div class="container">
+       
+            <a href="writingpage.html"><button class="btn">Start Writing</button></a>
+    </div>
+</body>
+
+</html>
